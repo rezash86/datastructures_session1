@@ -1,1 +1,15 @@
 using jnit and mockito
+git checkout dev
+git pull
+git checkout <feature_branch>
+git merge dev
+
+
+in order to be synced with the latest
+code from dev branch while you are 
+working in your local <feature_branch>
+
+shows all the branches
+git branch -a
+fetches all the branches
+git fetch
