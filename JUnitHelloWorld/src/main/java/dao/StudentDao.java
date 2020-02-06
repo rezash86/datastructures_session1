@@ -14,4 +14,12 @@ public class StudentDao {
 		return Collections.emptyList();
 
 	}
+	
+	public Student getStudentById(int studentId){
+		//Imagine that we are connecting to db
+		//If I have JDBC connection with information like username and
+		//password
+		return null;
+
+	}
 }
