@@ -25,4 +25,17 @@ public class StudentService {
 		return names;
 		
 	}
+	
+	
+	public Student getStudentById(int stdId) {
+		List<Student> students = service.getStudents();
+		for (Student student : students) {
+			if(student.getStdId() == stdId) {
+				return student;
+			}
+		}
+		return null;
+	}
+	
+	
 }
